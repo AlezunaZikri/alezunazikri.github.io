@@ -319,7 +319,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/serfis.png) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;

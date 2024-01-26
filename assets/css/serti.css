@@ -1,0 +1,78 @@
+/* Certificate Section */
+.certificate-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 8rem 1rem ;
+}
+
+.certificate-container .certificate-wrapper {
+     position: relative;
+     max-width: 100rem ;
+     width: 100%;
+     padding: 2rem;
+}
+
+.certificate-wrapper .certificate-box {
+    padding: 1rem ;
+    border-radius: 2rem;
+    overflow: hidden ;
+}
+
+.certificate-content .certificate-slide {
+     display: flex;
+     align-items: center;
+     flex-direction: column ;
+     background: black;
+     border-radius: 2rem;
+     box-shadow: 0 .1rem .5rem black;
+     padding: 4rem 6rem;
+     border-top: .8rem solid black;
+     border-bottom  : .8rem solid black;
+}
+
+.certificate-slide img {
+    width: 70%;
+    object-fit: cover ; 
+    border-radius: 2rem ;
+    border: .2rem solid black;
+    outline: .5rem solid black;
+    transition: .5s ease;
+    box-shadow: .8rem .8rem .5rem black ;
+}
+
+.certificate-slide img:hover {
+    transform: scale(1.04);
+}
+
+.certificate-slide h3 {
+    font-size: 1.7rem;
+    margin: 2rem 0;
+    text-align: center;
+    color: var(--white-color);
+    background: black;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.certificate-box .swiper-button-next,
+.certificate-box .swiper-button-prev {
+    color: black;
+}
+
+.certificate-box .swiper-button-next {
+    right:0;
+}
+
+.certificate-box .swiper-button-prev {
+    left: 0;
+}
+
+.certificate-box .swiper-pagination-bullet {
+    background: rgba(0, 0, 0, 0.801);
+}
+
+.certificate-box .swiper-pagination-bullet-active {
+    background-color: black ;
+}
